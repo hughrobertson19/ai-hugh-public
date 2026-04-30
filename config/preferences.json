@@ -1,0 +1,35 @@
+{
+  "timezone": "America/Chicago",
+  "integration_mode": "dry_run",
+  "approval_mode": "manual",
+  "auto_approve_enabled": false,
+  "auto_approve_requires_confirmation": true,
+
+  "follow_up_style": "light",
+  "max_attempts_before_pause": 2,
+
+  "default_channel": "any",
+  "allowed_channels": ["call", "email", "text", "linkedin", "whatsapp"],
+  "allow_channel_switching": true,
+  "prefer_call_on_low_confidence": true,
+
+  "confidence_threshold_to_auto_act": 0.8,
+  "confidence_display": "percentage",
+  "explain_low_confidence": true,
+
+  "cooldown_hours_between_actions": 24,
+  "enforce_work_hours": true,
+  "enforce_channel_hours": true,
+
+  "work_hours": {
+    "start": "08:00",
+    "end": "18:00"
+  },
+  "channel_hours": {
+    "call": { "start": "09:00", "end": "17:00" },
+    "email": { "start": "07:00", "end": "21:00" },
+    "text": { "start": "10:00", "end": "20:00" },
+    "linkedin": { "start": "08:00", "end": "19:00" },
+    "whatsapp": { "start": "08:00", "end": "20:00" }
+  }
+}

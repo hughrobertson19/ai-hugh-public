@@ -1,0 +1,11 @@
+anthropic>=0.39.0
+certifi
+cryptography
+httpx
+notion-client>=3.0.0
+pandas
+pydantic
+pypdf
+python-docx
+python-dotenv
+python-pptx

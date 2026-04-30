@@ -1,0 +1,38 @@
+Source: meeting notes → process_call.py
+Captured: 2026-04-28 13:00 CT
+Duration: 28 min
+Attendees: Hugh Robertson, Elena Vasquez (Quality Director, Stellar Pharma Inc)
+
+---
+
+[00:00] Hugh: Elena, thanks for jumping on. I want to keep this tight — 25 minutes. I've got three things I want to walk through and then I'd love to hear what's actually on your plate. Sound good?
+
+[00:18] Elena: Sounds good. Quick context — I just came out of a leadership review where we're getting pushed on our last FDA pre-approval finding. Training records.
+
+[00:35] Hugh: That's actually the exact area I wanted to start. Walk me through what the finding was, in your words.
+
+[00:48] Elena: Look, we can prove training happened. We can't always prove the right *version* of the SOP was current at the time. The auditor pulled three records from 2023 and we couldn't tie them to the SOP version that was effective on the training date.
+
+[01:32] Hugh: That's the gap our other pharma customers came to us with — completion records that aren't tied to SOP version control. How are you handling SOP-to-training cycle time today?
+
+[01:51] Elena: It's an 11-week lag. We know it should be 4 to 6.
+
+[02:04] Hugh: Yeah, that tracks with industry. Can I ask — when an SOP changes, who triggers the retraining workflow today?
+
+[02:18] Elena: Site QA leads, manually. Each region has its own approach.
+
+[02:35] Hugh: That's the operational cost. So if there's no consolidated dashboard your site leads can look at to see who-still-owes-what across regions, you're rebuilding that view every audit cycle.
+
+[02:55] Elena: Exactly. We reconstruct Part 11 audit trails by hand each time. It takes weeks.
+
+... [notes continue another 23 minutes — discovery flow + objection handling] ...
+
+[27:42] Hugh: Three things I'll do today: send you a Part 11 audit-trail walkthrough with two pharma references, set up a 30-min technical deep-dive next week with your site QA leads, and confirm tomorrow's 1pm slot is good.
+
+[28:01] Elena: Perfect. Send the deep-dive invite for May 8 — Thursday morning works.
+
+[28:11] Hugh: Done. Talk tomorrow.
+
+---
+
+[ AI extraction (process_call.py) → task: send_proof_point, urgency 85, confidence 92, due 2026-04-29 17:00 CT ]

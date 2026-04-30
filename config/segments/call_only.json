@@ -1,0 +1,25 @@
+{
+  "description": "Leads that should be CALLED but never cold-emailed during any active sprint. Loaded by send_emails.py (CALL_ONLY_LEADS) and scripts/build_today_calls.py (CALL_ONLY_OVERRIDES). The segments map is intentionally named so additional warm groups (partner_warm, channel_partnership, etc.) can be added without code changes.",
+  "segments": {
+    "partner_warm": {
+      "label": "Strategic partner warm angle",
+      "reason": "Existing partnership with this account. Cold email would damage the relationship framing. Use partnership-framing language on calls; route any inbound interest through existing contacts rather than a standard pitch.",
+      "leads": [
+        {
+          "first_name": "Jane",
+          "last_name": "Doe",
+          "email": "jane.doe@acmecorp.example.com",
+          "company": "Acme Corp",
+          "timezone": "ET"
+        },
+        {
+          "first_name": "John",
+          "last_name": "Smith",
+          "email": "j.smith@globaltech.example.com",
+          "company": "GlobalTech Industries",
+          "timezone": "CT"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# --- Secrets ---
+.env
+.secret_key
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# --- Local lead/account data (NEVER commit) ---
+*.csv
+!.gitkeep
+intel/*/raw/
+intel/*/leads.csv
+intel/*/leads_with_titles.csv
+intel/*/sent_log.csv
+intel/*/crm_activity_export.csv
+intel/*/excluded_leads.csv
+
+# --- Local state (regenerated) ---
+config/tasks.json.bak
+core/coaching_log.json
+core/daily_metrics.json
+memory/
+archive/
+logs/
+overnight_log/*.md
+overnight_log/*.txt
+!overnight_log/examples/
+
+# --- Generated artifacts ---
+output/
+podcast_series/
+market_intel/data/raw/
+market_intel/data/processed/
+*.docx
+*.mp3
+*.wav
+
+# --- Local ops scripts (machine-specific paths) ---
+overnight_run.sh
+morning_notify.sh
+overnight_prompt.md

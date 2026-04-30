@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.aihugh.overnight</string>
+
+  <!-- Run the overnight Claude Code agent at 02:00 local time, daily. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>    <integer>2</integer>
+    <key>Minute</key>  <integer>0</integer>
+  </dict>
+
+  <key>WorkingDirectory</key>
+  <string>~/Developer/ai-hugh</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>~/Developer/ai-hugh/overnight_run.sh</string>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>~/Developer/ai-hugh/logs/overnight.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>~/Developer/ai-hugh/logs/overnight.err.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>
